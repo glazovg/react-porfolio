@@ -1,57 +1,57 @@
-.App {
-  text-align: center;
+main {
+  position: relative;
+  overflow: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'La Belle Aurore';
-  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Coolvetica';
-  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
-}
-
-input, textarea {
-  font-family: 'Helvetica Neue';
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn {
+  background-color: rgb(169, 169, 169);
+  border: none;
   color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid li img {
+  width: 40px;
+  height: 40px;
+}
+
+#skills ul, #contact-me ul {
+  list-style: none;
+}
+
+#work img {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+#work a {
+  font-size: 1.1rem;
+  margin-right: 20px;
+  color: #5b5b5b;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#contact-me a {
+  font-size: 3.1rem;
+  margin-right: 20px;
+  color: #5b5b5b;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(93, 93, 93);
+  color: white;
 }
