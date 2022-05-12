@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
 import Skills from './components/Skills/Skills';
+import Work from './components/Work/Work';
 
 function App() {
   return (
@@ -27,10 +28,11 @@ function App() {
         <Container>
           <AboutMe />
           <Skills />
+          <Work />
         </Container>
       </Container>
 
-      <footer class="d-flex justify-content-center">
+      <footer className="d-flex justify-content-center">
         <p>© Guillermo Lazo 2022</p>
       </footer>
 
